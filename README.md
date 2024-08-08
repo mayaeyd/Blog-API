@@ -2,7 +2,7 @@
 Blog API with Node.js and Express
 This project is a RESTful Blog API that allows users to view, edit, delete, and post blogs. It was built using Node.js, Express, and bodyParser, adhering to RESTful principles with the use of GET, POST, PATCH, and DELETE HTTP methods.
 
-The API is designed to be flexible and scalable, supporting full CRUD (Create, Read, Update, Delete) operations. It's integrated with a frontend application running on a different port, enabling seamless interaction between the client and server.
+The API is designed to be flexible and scalable, supporting full CRUD (Create, Read, Update, Delete) operations. It's integrated with a frontend application running on a different port, enabling seamless interaction between the client and server. 
 
 The application you can send API requests from is the server.js file, you can run it on port 3000.
 The API is built in the index.js file, you can run it on port 4000.
@@ -19,4 +19,19 @@ Technologies Used:
 -bodyParser: Middleware for parsing incoming request bodies.
 
 How to run the application:
-1- 
+1-Clone the repository: 
+git clone https://github.com/mayaeyd/Blog-API.git 
+cd Blog-API
+
+2-Install Dependencies: 
+Make sure you have Node.js installed. Then, run: npm install
+
+3-Start the API: 
+nodemon index.js  //this should run on port 4000
+
+4-Start the server.js:
+On a different bash terminal, run:
+nodemon server.js  //this should run on port 3000
+
+5-Open your browser: 
+Navigate to 'http://localhost:3000' to view the app.
